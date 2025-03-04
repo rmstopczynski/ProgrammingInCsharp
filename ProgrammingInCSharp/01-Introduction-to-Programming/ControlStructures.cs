@@ -7,25 +7,25 @@ namespace IntroductionToProgramming
         public static void RunExample()
         {
             // 1. If-Else Example
-            IfElseExample();
+            // IfElseExample();
 
             // 2. Switch-Case Example
-            SwitchCaseExample();
+            // SwitchCaseExample();
 
             // 3. For Loop Example
-            ForLoopExample();
+            // ForLoopExample();
 
             // 4. While Loop Example
-            WhileLoopExample();
+            // WhileLoopExample();
 
             // 5. Do-While Loop Example
-            DoWhileLoopExample();
+            // DoWhileLoopExample();
 
             // 6. Nested Loops Example
-            NestedLoopExample();
+            // NestedLoopExample();
 
             // 7. Break and Continue Example
-            BreakAndContinueExample();
+            // BreakAndContinueExample();
 
             Console.WriteLine("\n-- Control Structures Examples Completed --");
         }

@@ -14,16 +14,16 @@ namespace IntroductionToProgramming
         public static void RunExample()
         {
             // 1. Variable Scope and Lifetime
-            ScopeAndLifetimeExample();
+            // ScopeAndLifetimeExample();
 
             // 2. Constant and Readonly Variables
-            ConstantAndReadonlyExample();
+            // ConstantAndReadonlyExample();
 
             // 3. Enumerations (enum)
-            EnumerationExample();
+            // EnumerationExample();
 
             // 4. Typecasting and Conversions
-            TypecastingExample();
+            // TypecastingExample();
 
             // 5. Nullable Types
             NullableTypesExample();
