@@ -10,16 +10,16 @@ namespace DataStructures.Arrays
             ArrayDeclarationInitializationAccess();
 
             // 2. Single-Dimensional and Multi-Dimensional Arrays
-            SingleAndMultiDimensionalArrays();
+            // SingleAndMultiDimensionalArrays();
 
             // 3. Jagged Arrays
-            JaggedArraysExample();
+            // JaggedArraysExample();
 
             // 4. Array Traversal (for and foreach)
-            ArrayTraversalExample();
+            // ArrayTraversalExample();
 
             // 5. Array Methods (Sort and Reverse)
-            ArrayMethodsExample();
+            // ArrayMethodsExample();
 
             Console.WriteLine("\n-- Arrays Basics Examples Completed --");
         }

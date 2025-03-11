@@ -69,3 +69,65 @@ namespace OOPs.Inheritance
         }
     }
 }
+namespace Inheritance.Example
+{
+    // Base class: Employee
+    public class Employee
+    {
+        // Protected fields
+        protected string firstName;
+        protected string lastName;
+
+        // Constructor to initialize fields
+        public Employee(string firstName, string lastName)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
+
+        // Method to display employee information
+        public virtual void DisplayInfo()
+        {
+            Console.WriteLine($"Employee: {firstName} {lastName}");
+        }
+    }
+
+    // Derived class: Manager (inherits from Employee)
+    public class Manager : Employee
+    {
+        // Private field specific to Manager
+        private int directReportsCount;
+
+        // Constructor to initialize base and derived fields
+        public Manager(string firstName, string lastName, int directReportsCount) : base(firstName, lastName)
+        {
+            this.directReportsCount = directReportsCount;
+        }
+
+        // Override DisplayInfo to include manager-specific information
+        public override void DisplayInfo()
+        {
+            base.DisplayInfo(); // Call base class method
+            Console.WriteLine($"Direct Reports Count: {directReportsCount}");
+        }
+    }
+
+    // Class to run the example
+    public class InheritanceExample
+    {
+        public static void RunExample()
+        {
+            Console.WriteLine("\n--- Inheritance Example ---");
+
+            // Create an Employee object
+            Employee myEmployee = new Employee("Bob", "Smith");
+            myEmployee.DisplayInfo();
+
+            Console.WriteLine();
+
+            // Create a Manager object
+            Manager myManager = new Manager("Charlie", "White", 10);
+            myManager.DisplayInfo();
+        }
+    }
+}
